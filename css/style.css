@@ -1,0 +1,43 @@
+/*font-family: 'Montserrat',
+sans-serif;* - raleway700*/
+/*font-family: 'Montserrat',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;- roboto 400 500 700 900*/
+
+/* main colour - #212121*/
+/*sec colour - #757575*/
+/*accent - #2196F3*/
+/*white - #FFFFFF*/
+/* background colour - #E5E5E5*/
+/*background second color - #2F303A*/
+
+:root {
+--main-color: #212121;
+--sec-color: #757575;
+--accent-color: #2196F3;
+--footer-color: #2F303A;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--main-color);
+}
+.logo {
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+/*site-nav*/
+.site-nav .link {
+     color: var(--accent-color);
+}
+.site-nav .link:hover {
+    color: var(--main-color);
+}
+.site-nav .link:focus {
+    color: var(--main-color);
+}
