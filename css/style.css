@@ -24,7 +24,20 @@ body {
     color: var(--main-color);
 }
 .logo {
-    color: #212121;
+    color: var(--main-color);
+}
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.logo-botton {
+     color: #FFFFFF;
+}
+
+.logo-botton:hover,
+.logo-botton:focus {
+    color: var(--accent-color);
 }
 
 .list {
@@ -40,4 +53,42 @@ body {
 }
 .site-nav .link:focus {
     color: var(--main-color);
+}
+
+/*item-contact*/
+
+.item-contact .link {
+    color: var(--accent-color);
+}
+.item-contact .link:hover {
+    color: var(--main-color);
+}
+.item-contact .link:focus {
+    color: var(--main-color);
+}
+
+/*section*/
+
+.section .section-content {
+    color: var(--sec-color);
+}
+
+.list .list-profession {
+    color: var(--sec-color);
+}
+
+/*footer*/
+.botton {
+    background-color: #2F303A;
+}
+
+.footer-item .footer-link {
+    color: #FFFFFF;
+}
+.footer-item .footer-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-item .footer-link:focus {
+    color: var(--accent-color);
 }
