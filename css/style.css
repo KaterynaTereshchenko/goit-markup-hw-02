@@ -90,7 +90,9 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-
+ .site-nav .link-active {
+    color: var(--accent-color);
+ }
 /*item-contact*/
 
 .item-contact .link {
